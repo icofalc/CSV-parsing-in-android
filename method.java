@@ -14,8 +14,6 @@
                 
             } catch (MalformedURLException e) {
                 e.printStackTrace();//url malformato
-                errore=true;
             } catch (IOException e) {
-                errore=true;
                 e.printStackTrace();//errore apertura connessione
             }
